@@ -33,8 +33,8 @@ export default function App() {
             <h1>{fizzbuzz()}</h1>
             <h2>{count}</h2>
             <div className="App">
-                <button onClick={() => handleMinusButtonClick()}>-</button>
-                <button onClick={() => handlePlusButtonClick()}>+</button>
+                <button onClick={handleMinusButtonClick}>-</button>
+                <button onClick={handlePlusButtonClick}>+</button>
             </div>
             <p>Tipp: Baue diese Applikation in React nach. Beachte: Zahlen die durch 3, 5 und 3 und 5 teilbar sind, werden besonders angezeigt.</p>
         </>
